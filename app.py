@@ -24,10 +24,10 @@ def get_pdf_text(pdf_docs):
     return text
 
 
-# def get_text_chunks(text):
-#     splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=1000)
-#     chunks = splitter.split_text(text)
-#     return chunks
+def get_text_chunks(text):
+    splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=1000)
+    chunks = splitter.split_text(text)
+    return chunks
 
 
 # def get_vector_store(chunks):

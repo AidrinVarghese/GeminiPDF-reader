@@ -60,10 +60,10 @@ def get_conversational_chain():
     return chain
 
 
-# def clear_chat_history():
-#     st.session_state.messages = [
-#         {"role": "assistant", "content": "upload some pdfs and ask me a question"}
-#     ]
+def clear_chat_history():
+    st.session_state.messages = [
+        {"role": "assistant", "content": "upload some pdfs and ask me a question"}
+    ]
 
 
 # def user_input(user_question):
